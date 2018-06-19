@@ -1,10 +1,12 @@
 import sys, threading, multiprocessing, time
-
+#Function that only counts n
 def countdown(n):
     while n > 0:
         n-=1
         
+#Times that I will iterate        
 COUNT = 100000000
+COUNT2 = 100000000
 t = time.time()
     
 if sys.argv[1]=='serial':
