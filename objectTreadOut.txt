@@ -1,0 +1,10 @@
+Starting tests
+non_threaded (1 iters)  7.417233 seconds
+threaded (1 threads)    7.330554 seconds
+non_threaded (2 iters)  14.490278 seconds
+threaded (2 threads)    7.443834 seconds
+non_threaded (4 iters)  29.072899 seconds
+threaded (4 threads)    7.343024 seconds
+non_threaded (8 iters)  58.199312 seconds
+threaded (8 threads)    7.557445 seconds
+Iterations complete
